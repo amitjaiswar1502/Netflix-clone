@@ -1,0 +1,120 @@
+.banner {
+  position: relative;
+  height: 100%;
+  color: white;
+  object-fit: contain;
+}
+
+.banner-content {
+  margin-left: 30px;
+  padding-top: 400px;
+  height: 100%;
+}
+.banner-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner-description {
+  padding-top: 20px;
+  width: 45rem;
+  line-height: 1rem;
+  font-size: 1rem;
+  max-width: 420px;
+  height: 80px;
+}
+
+.banner-fadeBottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.banner-button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(37, 37, 37, 0.5);
+  padding-bottom: 0.5rem;
+}
+.banner-button:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-content {
+    padding-top: 50px;
+  }
+
+  .banner-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-bottom: 3.3rem;
+    padding-top: 5rem;
+  }
+
+  .banner-fadeBottom {
+    height: 4.4rem;
+  }
+
+  .banner-description {
+    padding-top: 10px;
+    width: 25rem;
+    line-height: 1rem;
+    font-size: 0.9rem;
+    max-width: 300px;
+    height: 25px;
+  }
+
+  .row-posterLarge {
+    max-height: 170px !important;
+  }
+
+  .banner-button {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: rgba(37, 37, 37, 0.5);
+    padding-bottom: 0.5rem;
+  }
+
+  h2 {
+    display: block;
+    font-size: 1.2rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  .row-poster {
+    max-height: 75px;
+  }
+  .row-posters {
+    padding: 0;
+  }
+
+  .row {
+    margin-left: 10px;
+  }
+}

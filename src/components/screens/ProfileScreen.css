@@ -1,0 +1,129 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+}
+.profileScreen-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-width: 800px;
+}
+.profile-Info {
+  display: flex;
+}
+.profile-Info > img {
+  height: 100px;
+}
+.profileScreen-body > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  padding-top: 150px;
+}
+
+.profileScreen-details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+
+.profileScreen-details > h2 {
+  background-color: grey;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profileScreen-Signout {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: white;
+  background-color: red;
+}
+
+.profileScreen-plans > h3 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.profileScreen-plans {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 765px) {
+  .nav {
+    position: fixed;
+    width: 100vw;
+  }
+
+  .profileScreen-body > h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 120px;
+  }
+
+  .profile-Info > img {
+    height: 35px;
+  }
+  .planScreen-Plan > button {
+    font-size: 0.5rem;
+    padding: 7px 7px;
+  }
+  .profileScreen-Signout {
+    font-size: 0.7rem;
+  }
+
+  .profileScreen-details > h2 {
+    font-size: 10px !important;
+    padding: 10px;
+  }
+
+  .profileScreen-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    max-width: 320px;
+    width: 75%;
+    margin-right: auto;
+  }
+  .profileScreen-plans {
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+  .planScreen-Plan {
+    padding: 10px !important;
+  }
+
+  .profileScreen-details {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .loginScreen-body > h1 {
+    font-size: 2rem;
+  }
+  .loginScreen-Getstarted {
+    padding: 18px 10px;
+    font-size: 0.8rem;
+  }
+  .loginScreen-input > form > input {
+    width: 46%;
+  }
+  .loginScreen-logo {
+    width: 100px;
+  }
+
+  .signIn-button {
+  
+    font-size: 0.7rem;
+   
+}
+}

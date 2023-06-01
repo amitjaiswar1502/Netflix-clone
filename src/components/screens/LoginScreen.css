@@ -1,0 +1,110 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background-image: url("../../images/signinBackground.jpg");
+  background-size: cover;
+}
+
+.loginScreen-Gradient {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.2) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen-body > h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+.loginScreen-body > h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.loginScreen-body > h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.loginScreen-body {
+  position: absolute;
+  top: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+
+.signIn-button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  color: white;
+  background-color: red;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+}
+
+.loginScreen-logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding: 20px;
+}
+.loginScreen-input {
+  margin: 20px;
+}
+
+.loginScreen-input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen-Getstarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .loginScreen-body {
+    top: 18%;
+  }
+  .signUpScreen > form > button {
+    font-size: 0.8rem;
+    padding: 13px 17px;
+  }
+  .signUpScreen {
+    padding: 40px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .signUpScreen > form > button {
+    margin-top: 10px;
+  }
+  .signUpScreen > form > h4 {
+    margin-top: 20px;
+  }
+}
