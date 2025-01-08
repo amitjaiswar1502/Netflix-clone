@@ -18,7 +18,7 @@ async function fetchData(){
 fetchData();
 },[fetchUrl]);
 
-console.log(movies);
+// console.log(movies);
 
 
   return (
